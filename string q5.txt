@@ -1,0 +1,15 @@
+numerical_value = 42
+print("Original numerical value:", numerical_value)
+print("Type of numerical value:", type(numerical_value))
+
+numerical_string = str(numerical_value)
+print("Converted string:", numerical_string)
+print("Type of converted string:", type(numerical_string))
+
+
+output:
+
+Original numerical value: 42
+Type of numerical value: <class 'int'>
+Converted string: 42
+Type of converted string: <class 'str'>

@@ -1,0 +1,10 @@
+To store a single quote character (‘) as a string in a variable, you can use the Unicode representation or the string's raw format. Here's an example:
+
+my_variable = '‘'  # Using Unicode representation
+
+# or
+
+my_variable = r'‘'  # Using raw format
+
+
+In the first example, the single quote character is directly placed within the quotes. In the second example, the r before the opening quote indicates a raw string, so any special characters within the string will be treated as literal characters

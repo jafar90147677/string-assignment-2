@@ -1,0 +1,9 @@
+In the provided variable `x = 'a'`, `x` is a string type variable.
+
+In Python, a string is a sequence of characters enclosed within single quotes ('') or double quotes (""). In this case, `x` is enclosed within single quotes, indicating that it is a string.
+
+Although the string `x` consists of a single character, it is still considered a string because it is enclosed within quotes. Python treats single-character strings the same way as strings with multiple characters.
+
+If `x` were a character type variable, it would not be enclosed within quotes. For example, a character type variable would be represented as `x = 'a'`, where `'a'` represents a single character.
+
+In the given example, the presence of the single character 'a' enclosed within single quotes ('a') makes `x` a string type variable.

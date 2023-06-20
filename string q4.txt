@@ -1,0 +1,33 @@
+
+wor = 'PanaJi@T//56('
+lowercase_count = sum(1 for char in wor if char.islower())
+print("Total number of lowercase alphabets:", lowercase_count)
+
+output:
+
+Total number of lowercase alphabets: 6
+
+
+
+wor = 'PanaJi@T//56('
+uppercase_count = sum(1 for char in wor if char.isupper())
+print("Total number of uppercase alphabets:", uppercase_count)
+
+
+output:
+
+Total number of uppercase alphabets: 2
+
+
+wor = 'PanaJi@T//56('
+numeric_count = sum(1 for char in wor if char.isdigit())
+print("Total number of numerical characters:", numeric_count)
+
+
+output:
+
+
+Total number of numerical characters: 2
+
+
+
